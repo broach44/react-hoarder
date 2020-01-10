@@ -1,12 +1,25 @@
 import React from 'react';
+
+import firebase from 'firebase/app';
+import 'firebase/auth';
+
 import './Auth.scss';
 
-class App extends React.Component {
+class Auth extends React.Component {
+  loginClickEvent = (e) => {
+    e.preventDefault();
+    const provider = new firebase.auth.GoogleAuthProvider();
+    firebase.auth().signInWithPopup(provider);
+  }
+
   render() {
     return (
-      <h2>Auth</h2>
+      <div className="Auth">
+       <h2>Auth</h2>
+        <button className="btn btn-warning" onClick={this.loginClickEvent}>Login with Google</button>
+      </div>
     );
   }
 }
 
-export default App;
+export default Auth;

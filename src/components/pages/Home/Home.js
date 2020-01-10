@@ -5,7 +5,8 @@ import './Home.scss';
 class Home extends React.Component {
   render() {
     return (
-      <div className="Home">Home Component</div>
+      <div className="Home">
+      </div>
     );
   }
 }
