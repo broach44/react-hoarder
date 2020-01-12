@@ -43,6 +43,7 @@ class SingleStuff extends React.Component {
 
   render() {
     const { stuff } = this.state;
+    const { stuffId } = this.props.match.params;
     return (
       <div className="SingleStuff">
         {this.renderRedirect()}
@@ -56,6 +57,7 @@ class SingleStuff extends React.Component {
                     <h5 className="card-title">{stuff.itemName}</h5>
                     <p className="card-text">{stuff.itemDescription}</p>
                     <button className="btn btn-danger" onClick={this.deleteStuff} >Delete Item</button>
+                    <Link className="btn btn-primary m-2" to={`/stuff/${stuffId}/edit`}>Edit Item</Link>
                   </div>
                 </div>
               }
