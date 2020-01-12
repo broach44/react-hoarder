@@ -26,9 +26,12 @@ const deleteSingleStuff = (stuffId) => axios.delete(`${baseUrl}/stuff/${stuffId}
 
 const saveNewStuff = (stuffInfo) => axios.post(`${baseUrl}/stuff.json`, stuffInfo);
 
+const updateStuff = (stuffId, stuffInfo) => axios.put(`${baseUrl}/stuff/${stuffId}.json`, stuffInfo);
+
 export default {
   getStuffByUid,
   getSingleStuffById,
   deleteSingleStuff,
   saveNewStuff,
+  updateStuff,
 };

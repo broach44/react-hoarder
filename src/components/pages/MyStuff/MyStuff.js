@@ -39,7 +39,6 @@ class MyStuff extends React.Component {
     return (
       <div className="MyStuff">
         <h1>My Stuff</h1>
-        <Link className="btn btn-primary m-2" to={`/stuff/${stuffId}/edit`}>Edit</Link>
         <Link className="btn btn-primary m-2" to={`/stuff/${stuffId}`}>Single</Link>
         <div className="container list-container">
           <ul className="list-group">
@@ -47,6 +46,7 @@ class MyStuff extends React.Component {
             stuffs.map((stuff, index) => <li key={stuff.id} className="list-group-item">
               {index + 1}. <Link to={`/stuff/${stuff.id}`}>{stuff.itemName}</Link>
               <button className="btn btn-danger btn-sm ml-3" id={`delete-${stuff.id}`} onClick={this.deleteItem}>Delete Item</button>
+              <Link className="btn btn-primary btn-sm m-2" to={`/stuff/${stuff.id}/edit`}>Edit Item</Link>
               </li>)
           }
           </ul>
