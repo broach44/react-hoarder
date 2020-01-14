@@ -52,7 +52,7 @@ class SingleStuff extends React.Component {
         <div className="row justify-content-center">
               {
                 (stuff !== null) && <div className="card col-6">
-                  <img src={stuff.itemImage} alt={stuff.itemName} className="card-img-top" />
+                  <img src={stuff.itemImage} alt={stuff.itemName} className="card-img-top stuff-image" />
                   <div className="card-body">
                     <h5 className="card-title">{stuff.itemName}</h5>
                     <p className="card-text">{stuff.itemDescription}</p>
