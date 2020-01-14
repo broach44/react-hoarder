@@ -11,15 +11,17 @@ This app is a simple collection of a users stuff.  This application is my first 
 - Axios
 ## Screenshots
 #### Logged Out View:
-![LoggedOutView]() 
+![LoggedOutView](https://raw.githubusercontent.com/broach44/react-hoarder/master/screenshots/loggedOutView.png) 
 #### Logged In View:
-![LoggedInView]() 
+![LoggedInView](https://raw.githubusercontent.com/broach44/react-hoarder/master/screenshots/loggedInView.png) 
 #### My Stuff View:
-![MyStuffView]() 
+![MyStuffView](https://raw.githubusercontent.com/broach44/react-hoarder/master/screenshots/myStuffListView.png) 
 #### New Stuff Form: 
-![NewStuffView]() 
+![NewStuffView](https://raw.githubusercontent.com/broach44/react-hoarder/master/screenshots/newStuffForm.png) 
 #### Update Stuff Form:
-![UpdateStuffView]() 
+![UpdateStuffView](https://raw.githubusercontent.com/broach44/react-hoarder/master/screenshots/editFormView.png) 
+#### Single Stuff Form:
+![SingleStuffView](https://raw.githubusercontent.com/broach44/react-hoarder/master/screenshots/singleStuff.png) 
 
 ## Demo
 ** Release TBD **
