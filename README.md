@@ -21,8 +21,8 @@ This app is a simple collection of a users stuff.  This application is my first 
 #### Update Stuff Form:
 ![UpdateStuffView](https://raw.githubusercontent.com/broach44/react-hoarder/master/screenshots/editFormView.png) 
 #### Single Stuff Form:
-![SingleStuffTop]()
-![SingleStuffBottom]()
+![SingleStuffTop](https://raw.githubusercontent.com/broach44/react-hoarder/master/screenshots/singleStuff1.png)
+![SingleStuffBottom](https://raw.githubusercontent.com/broach44/react-hoarder/master/screenshots/singleStuff2.PNG)
 
 ## Demo
 ** Release TBD **
